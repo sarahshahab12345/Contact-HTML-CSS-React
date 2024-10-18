@@ -1,0 +1,10 @@
+.contact_text h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.contact_text p {
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 80%;
+}

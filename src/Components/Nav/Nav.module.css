@@ -1,0 +1,28 @@
+nav {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo img {
+  max-height: 100%; 
+}
