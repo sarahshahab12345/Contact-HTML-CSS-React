@@ -4,6 +4,7 @@ import ContactButton from "../ContactButton/ContactButton";
 import { MdMessage } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import ContactImg from "../../assets/images/Contact.png";
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -68,7 +69,7 @@ function ContactForm() {
           </form>
         </div>
         <div className={styles.contact_image}>
-          <img src="/images/Contact.png" alt="Contact image" />
+          <img src={ContactImg} alt="Contact image" />
         </div>
       </section>
     </>

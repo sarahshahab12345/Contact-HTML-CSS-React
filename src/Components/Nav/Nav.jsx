@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Nav.module.css";
+import Logo from "../../assets/images/logo.png";
 
 function Nav() {
   return (
@@ -7,7 +8,7 @@ function Nav() {
       <nav>
         <div className={styles.nav}>
           <div className="logo">
-            <img src="/images/logo.png" alt="logo" />
+            <img src={Logo} alt="logo" />
           </div>
 
           <ul>
